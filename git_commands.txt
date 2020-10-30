@@ -15,6 +15,7 @@ ls -al дозволяє побачити приховані файли (репо
 
 cd .. вийти на рівень вище
 git add <назва файлу> ( як git add readme.txt)додати файл (новий, або змінений) до репозиторію
+git add -u додасть усі файли які мінялись
 Author: Mchillout <mzvisium@gmail.com>
 git commit -m "Added readme" закоммітити файл readme.txt
 git commit -m "Modified readme" закоммітити файл readme.txt
