@@ -1,5 +1,3 @@
-github.com - marinazharova / 11092020Mz
-https://www.schoology.com/ username mchillout / 110919Mz
 
 git version 2.29.1.windows.1
 
