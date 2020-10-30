@@ -1,0 +1,31 @@
+github.com - marinazharova / 11092020Mz
+https://www.schoology.com/ username mchillout / 110919Mz
+
+git version 2.29.1.windows.1
+
+
+git = вивід команд які використовуются в git
+git status показує стан репозиторію. Якщо репозиторію немає, тоді git init .(в поточній директорії) або + путь()
+git init створює новий пустий репозиторій, або перевстановлює існуючий .git
+В папці .git зберігається вся інформація про мій репозиторій, всі файли, всі комміти
+
+ls -al дозволяє побачити приховані файли (репозиторій .git прихований)
+./ поточна папка
+../ шлях наверх
+
+cd .. вийти на рівень вище
+git add <назва файлу> ( як git add readme.txt)додати файл (новий, або змінений) до репозиторію
+Author: Mchillout <mzvisium@gmail.com>
+git commit -m "Added readme" закоммітити файл readme.txt
+git commit -m "Modified readme" закоммітити файл readme.txt
+хеш комміту це його унікальне ім'я , як commit 17c0e398bcfd52c63431c4c819b09d78f3fd270d 
+git log показує історію коммітів
+git config user.email - вказати свій email
+git config user.name - вказати своє ім'я
+git branch - список гілок, а також активна гілка
+гілка (branch) це послідовність коммітів
+git checkout -b <гілка> - зробити нову гілку, і переключається на неї (git checkout -b first_feature переключиться на нову гілку first_feature)
+git checkout master - перемикає на гілку master
+git checkout first_feature -перемикає на гілку first_feature
+git diff <комміт1> <комміт2> показує різницю між коммітами
+git remote -v показує список віддалених репозиторіїв
